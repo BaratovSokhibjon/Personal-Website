@@ -1,0 +1,39 @@
+.engineer{
+    font-style: italic;
+    font-weight: 500;
+}
+
+body{
+    background-color: #070F2B;
+}
+
+.introduction{
+    background-color: #393E46;
+    color: white;
+}
+
+h1{
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    color: #9290C3;
+}
+
+.intro .qualifications{
+    display: block;
+}
+
+.nav{
+    background-color: #1B1A55;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: larger;
+}
+
+.nav > div{
+    width: 125px;
+    display: flex;
+    justify-content: space-around;
+}
