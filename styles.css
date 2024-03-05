@@ -37,3 +37,9 @@ h1{
     display: flex;
     justify-content: space-around;
 }
+
+.examCert {
+    width: 300px;  /* Adjust as needed */
+    height: 200px; /* Adjust as needed */
+    object-fit: cover;
+}
