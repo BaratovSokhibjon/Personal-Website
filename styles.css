@@ -43,3 +43,13 @@ h1{
     height: 200px; /* Adjust as needed */
     object-fit: cover;
 }
+
+.card{
+    width: 18rem; 
+    overflow: hidden;
+    background-color: #535C91;
+}
+button:hover{
+    background-color: #9290C3;
+}
+
