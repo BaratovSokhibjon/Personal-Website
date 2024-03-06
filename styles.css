@@ -27,7 +27,7 @@ h1{
     height: 70px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     font-size: larger;
 }
@@ -48,8 +48,23 @@ h1{
     width: 18rem; 
     overflow: hidden;
     background-color: #535C91;
+    padding: 0;
 }
 button:hover{
     background-color: #9290C3;
+}
+
+.caruoselMine  h2, .caruoselMine p{
+    color: white;
+}
+
+@media (max-width: 1000px) {
+    .nav > div > img{
+        display: none;
+    }
+
+    .card{
+        display: block;
+    }
 }
 
