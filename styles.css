@@ -50,6 +50,9 @@ h1{
     background-color: #535C91;
     padding: 0;
 }
+.card > img{
+    margin-left: -7px;
+}
 button:hover{
     background-color: #9290C3;
 }
