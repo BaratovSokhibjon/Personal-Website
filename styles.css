@@ -1,43 +1,39 @@
+*{
+    color: #E9F6FF;
+}
+
 .engineer{
     font-style: italic;
     font-weight: 500;
 }
 
 body{
-    background-color: #070F2B;
+    background-color: #280274;
 }
 
-.introduction{
-    background-color: #393E46;
-    color: white;
-}
 
 h1{
     font-family: "Kode Mono", monospace;
     font-optical-sizing: auto;
-    color: #9290C3;
+    color: #FE7A36;
 }
 
 .intro .qualifications{
     display: block;
+    
 }
 
 .nav{
-    background-color: #1B1A55;
     height: 70px;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: right;
     align-items: center;
     font-size: larger;
     min-width: 375px
 }
 
-.nav > div{
-    width: 125px;
-    display: flex;
-    justify-content: space-around;
-}
+
 
 .examCert {
     width: 300px;  /* Adjust as needed */
@@ -48,33 +44,100 @@ h1{
 .card{
     width: 18rem; 
     overflow: hidden;
-    background-color: #535C91;
+    background-color: #3652AD;
     padding: 0;
+    border: 1px solid #FE7A36;
+}
+.card > div > h2{
+    color: #FE7A36;
 }
 .card > img{
     margin-left: -7px;
 }
-button:hover{
-    background-color: #9290C3;
-}
 
-.caruoselMine  h2, .caruoselMine p{
-    color: white;
+.caruoselMine , .caruoselMine p{
+    color: #E9F6FF;
 }
 
 .container{
     min-width: 375px;
 }
 
+footer{
+    background-color: #3652AD;
+}
+
+.card-body > p{
+    padding: 0;
+    margin: 0;
+}
+
+button{
+    margin-top: 10px;
+}
+
+.myAbles > li{
+    font-size:xx-large;
+}
+.nav > li{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.resumeBtn, .certBtn{
+    border: 1px solid #FE7A36;
+    color: #FE7A36;
+}
+
+.resumeBtn:hover, .certBtn:hover{
+    background-color: #FE7A36;
+    color: white;
+    border: none;
+
+}
+
+.nav > li > a > svg{
+    fill: #FE7A36 !important;
+}
+
+.carousel-title{
+    text-shadow: 2px 2px 10px #FE7A36;
+    font-size: 2.5dvw;
+    padding: 0;
+    margin: 0;
+}
 
 
-@media (max-width: 1000px) {
-    .nav > div > img{
-        display: none;
+.carousel-text{
+    text-shadow: 2px 2px 10px #FE7A36;
+    font-size: 1.75dvw;
+    padding: 0;
+    margin: 0;
+}
+
+@media (min-width: 1400px) {
+    .endPart{
+    display: block;
+    margin: 0;
+    width: 100%;
+    }
+    .logoPart{
+        float: right;
+        margin-right: 30px;
     }
 
-    .card{
-        display: block;
+    .namePart{
+        float: left;
+        margin-left: 30px;
+    }
+    
+}
+
+@media (max-width: 767px) {
+    .logoPart{
+        justify-content: center !important;
     }
 }
+
+
 
